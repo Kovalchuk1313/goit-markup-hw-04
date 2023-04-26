@@ -74,6 +74,16 @@ button {
   margin: 0 auto;
   padding: 0 15px;
 }
+.section-title {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-main);
+}
 /**
   |============================
   | HEADER
@@ -83,6 +93,8 @@ button {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -150,6 +162,11 @@ button {
 .hero {
   padding: 188px 0;
   background-color: var(--color-main);
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  /* background-image: linear-gradient rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7); */
 }
 .hero-title {
   max-width: 496px;
@@ -207,16 +224,6 @@ button {
 .scope {
   padding-bottom: 120px;
 }
-.section-title {
-  margin-bottom: 72px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--color-main);
-}
 .scope-list {
   display: flex;
   gap: 24px;
@@ -249,6 +256,8 @@ button {
 .team-item {
   width: calc((100% -24px * 3) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-desc {
   padding: 32px 16px;
@@ -294,6 +303,13 @@ button {
 .footer-logo span {
   color: var(--color-bg);
 }
+.social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
 
 /**
   |============================
@@ -303,7 +319,6 @@ button {
 .menu {
   padding: 96px 0 120px;
 }
-
 .menu-btn {
   color: var(--color-button);
   background-color: var(--color-bg);
@@ -333,6 +348,10 @@ button {
 }
 .menu-inner-list {
   width: calc((100% - 48px) / 3);
+}
+.menu-inner-list:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .menu-title {
   font-weight: 500;
