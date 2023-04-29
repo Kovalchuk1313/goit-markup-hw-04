@@ -208,6 +208,15 @@ button {
   display: flex;
   gap: 24px;
 }
+.about-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 .about-title {
   margin-bottom: 8px;
   font-weight: 500;
