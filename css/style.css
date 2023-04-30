@@ -286,6 +286,7 @@ button {
 .team-text {
   text-align: center;
   color: var(--body-text);
+  margin-bottom: 8px;
 }
 .team-list-icons {
   display: flex;
@@ -345,6 +346,7 @@ button {
 .customers-icon {
   fill: currentColor;
 }
+
 /**
   |============================
   | FOOTER
